@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+}
+.tabs ul{
+    margin: 0;
+    padding: 0;
+}
+
+.tabs ul li{
+    display: inline-block;
+}
+.tabs ul li a{
+    display: inline-block;
+    color: white;
+    background-color: #444;
+    padding: 3px 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container{
+    background-color:#444;
+    display:none;
+}
+
+.active{
+    display:block;
+}
+
